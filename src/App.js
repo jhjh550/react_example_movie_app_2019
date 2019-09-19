@@ -47,6 +47,7 @@ function Food({name, picture, rating}){
   </div>
 }
 
+//https://github.com/facebook/create-react-app/issues/7183
 Food.propTypes = {
   name: PropTypes.string.isRequired,
   picture: PropTypes.string.isRequired,
